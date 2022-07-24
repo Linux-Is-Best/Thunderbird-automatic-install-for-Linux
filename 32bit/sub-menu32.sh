@@ -20,15 +20,15 @@ do
  read -r opt
  case $opt in
 # Stable
-  1) clear; echo; echo "You selected Mozilla Thunderbird"; echo; chmod +x ./64bit/thunderbird32.sh; ./64bit/thunderbird32.sh; break ;;
+  1) clear; echo; echo "You selected Mozilla Thunderbird"; echo; chmod +x ./32bit/thunderbird32.sh; ./32bit/thunderbird32.sh; break ;;
 # Beta
-  2) clear; echo; echo "You selected Thunderbird Beta"; echo; chmod +x ./64bit/thunderbird-beta32.sh; ./64bit/thunderbird-beta32.sh; break ;;
+  2) clear; echo; echo "You selected Thunderbird Beta"; echo; chmod +x ./32bit/thunderbird-beta32.sh; ./32bit/thunderbird-beta32.sh; break ;;
 # Nightly
-  3) clear; echo; echo "You selected Thunderbird Daily"; echo; chmod +x ./64bit/thunderbird-nighly32.sh; ./64bit/thunderbird-nightly32.sh; break ;;
+  3) clear; echo; echo "You selected Thunderbird Daily"; echo; chmod +x ./32bit/thunderbird-nighly32.sh; ./32bit/thunderbird-nightly32.sh; break ;;
 # Extended support release
-  4) clear; echo; echo "You selected Thunderbird for Organizations"; echo; chmod +x ./64bit/thunderbird-esr32.sh; ./64bit/thunderbird-esr32.sh; break ;;
+  4) clear; echo; echo "You selected Thunderbird for Organizations"; echo; chmod +x ./32bit/thunderbird-esr32.sh; ./32bit/thunderbird-esr32.sh; break ;;
 # Everything
-  5) clear; echo; echo "You selected to install ALL 32-bit editions"; echo; chmod +x ./64bit/thunderbird32-all.sh; ./64bit/thunderbird32-all.sh; break ;;
+  5) clear; echo; echo "You selected to install ALL 32-bit editions"; echo; chmod +x ./32bit/thunderbird32-all.sh; ./32bit/thunderbird32-all.sh; break ;;
 # User exit
   6) clear; echo; echo "Goodbye, $USER"; echo; exit 1;;
 # invalid option notice
