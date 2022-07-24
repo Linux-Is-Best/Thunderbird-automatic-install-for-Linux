@@ -61,8 +61,8 @@ GenericName[uk]=Поштова програма
 GenericName[vi]=Phần mềm khách quản lý thư điện tử
 GenericName[zh_CN]=邮件新闻客户端
 GenericName[zh_TW]=郵件用戶端
-Exec=/opt/thunderbird-32bit/thunderbird %u --class Thunderbird32
-Icon=/opt/thunderbird-32bit/chrome/icons/default/default256.png
+Exec=/opt/thunderbird-32bit/thunderbird/thunderbird %u --class Thunderbird32
+Icon=/opt/thunderbird-32bit/thunderbird/chrome/icons/default/default256.png
 Terminal=false
 Type=Application
 Categories=Network;Email;
@@ -122,7 +122,7 @@ Name[uk]=Написати нового листа
 Name[vi]=Viết thư mới
 Name[zh_CN]=编写新消息
 Name[zh_TW]=寫一封新訊息
-Exec=/opt/thunderbird-32bit/thunderbird -compose %u --class Thunderbird32
+Exec=/opt/thunderbird-32bit/thunderbird/thunderbird -compose %u --class Thunderbird32
 
 [Desktop Action OpenAddressBook]
 Name=Open address book
@@ -176,6 +176,6 @@ Name[uk]=Відкрити адресну книгу
 Name[vi]=Mở sổ địa chỉ
 Name[zh_CN]=打开通讯录
 Name[zh_TW]=開啟通訊錄
-Exec=/opt/thunderbird-32bit/thunderbird -addressbook %u --class Thunderbird32" > Thunderbird-32bit.desktop ;
+Exec=/opt/thunderbird-32bit/thunderbird/thunderbird -addressbook %u --class Thunderbird32" > Thunderbird-32bit.desktop ;
 # Exit
 exit 0
