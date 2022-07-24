@@ -9,7 +9,7 @@ do
  echo;
  echo "   6 4 b i t - M E N U";
  echo;
- echo "1. Mozill Thunderbird";
+ echo "1. Mozilla Thunderbird";
  echo "2. Thunderbird Beta";
  echo "3. Thunderbird Daily";
  echo "4. Thunderbird for Organizations";
