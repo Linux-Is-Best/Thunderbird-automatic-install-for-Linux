@@ -21,8 +21,8 @@ do
   1) clear; echo; echo "You selected Mozilla Thunderbird"; echo; chmod +x ./32bit/thunderbird32.sh; ./32bit/thunderbird32.sh; break ;;
 # Beta
   2) clear; echo; echo "You selected Thunderbird Beta"; echo; chmod +x ./32bit/thunderbird-beta32.sh; ./32bit/thunderbird-beta32.sh; break ;;
-# Nightly
-  3) clear; echo; echo "You selected Thunderbird Daily"; echo; chmod +x ./32bit/thunderbird-nighly32.sh; ./32bit/thunderbird-nightly32.sh; break ;;
+# Daily
+  3) clear; echo; echo "You selected Thunderbird Daily"; echo; chmod +x ./32bit/thunderbird-daily32.sh; ./32bit/thunderbird-daily32.sh; break ;;
 # User exit
   4) clear; echo; echo "Goodbye, $USER"; echo; exit 1;;
 # invalid option notice
