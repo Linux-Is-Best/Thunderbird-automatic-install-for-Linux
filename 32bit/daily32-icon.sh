@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# This script uses echo to generate a icon shortcut file. - Mozilla Thunderbird 32-bit - current stable release
+# This script uses echo to generate a icon shortcut file. - Mozilla Thunderbird 32-bit - daily release
 #
 # Creating icon
 echo "[Desktop Entry]
