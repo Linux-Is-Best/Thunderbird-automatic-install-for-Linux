@@ -14,7 +14,7 @@ do
  echo;
  echo "   Mozilla does not provide a direct universal link for me to download Thunderbird Daily for you."
  echo "   You'll need to download it from the URL and save the tar.bz2 archive in the same folder as Setup.sh"
- echo "   Once done, press #1, and I can continue. Otherwise, you can exit now."
+ echo "   Once done, press #1, and I can continue."
  echo;
  echo "   And YES, once installed, Thundbird Daily will still automatically update."
  echo;
