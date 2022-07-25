@@ -12,9 +12,11 @@ do
  echo "   The good news is I can still help you install Thunderbird Daily."
  echo "   What is the bad news is?"
  echo;
- echo "   Mozilla does provide a direct universal link for me to download Thunderbird Daily for you."
+ echo "   Mozilla does not provide a direct universal link for me to download Thunderbird Daily for you."
  echo "   You'll need to download it from the URL and save the tar.bz2 archive in the same folder as Setup.sh"
- echo "   Once done, press #1, and I can continue. Otherwise, you can exit now.  Sorry for the inconvenience."
+ echo "   Once done, press #1, and I can continue. Otherwise, you can exit now."
+ echo;
+ echo "   And YES, once installed, Thundbird Daily will still automatically update."
  echo;
  echo "   Download from here: "
  echo "   https://ftp.mozilla.org/pub/thunderbird/nightly/latest-comm-central-l10n/ "
