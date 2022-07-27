@@ -33,6 +33,8 @@ do
 # It's Mozilla's only build that they like to be different about. If someone knows someone in Mozilla, please look into this.
 # Making things easier to use and install is my goal. And the more people who use Mozilla products, the better.
 #
+# There is a Bugzilla report located here. https://bugzilla.mozilla.org/show_bug.cgi?id=1781072
+#
  echo;
  echo "1. I'm ready. Let's continue with the install.... ";
  echo "2. Exit ";
